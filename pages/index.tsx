@@ -26,14 +26,14 @@ export default function Home({
       <Script
         id="google-tags"
         strategy="lazyOnload"
-        src={"https://www.googletagmanager.com/gtag/js?id=G-904B4GST3C"}
+        src={"https://www.googletagmanager.com/gtag/js?id=G-NJ8TDN3FF2"}
       />
       <Script id="google-tags-2" strategy="lazyOnload">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-904B4GST3C');  
+            gtag('config', 'G-NJ8TDN3FF2'); 
         `}
       </Script>
       <main className="">
