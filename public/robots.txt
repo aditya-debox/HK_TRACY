@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://himalayankitchentracy.com
+
+# Sitemaps
+Sitemap: https://himalayankitchentracy.com/sitemap.xml
