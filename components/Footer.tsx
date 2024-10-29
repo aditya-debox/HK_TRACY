@@ -76,10 +76,10 @@ const Footer = () => {
                 </svg>
               </div>
               <Link
-                href="mailto:himalayankitchenmountainview@gmail.com"
+                href="mailto:himalayankitchentracy@gmail.com"
                 className="hover:underline"
               >
-                himalayankitchenmountainview@gmail.com
+                himalayankitchentracy@gmail.com
               </Link>
             </div>
           </div>
