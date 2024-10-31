@@ -116,7 +116,7 @@ const Buffet = () => {
           ></path>
         </svg>
       </div>
-      <div className="bg-primary pb-16 pt-8 md:py-28">
+      <div className="bg-primary pb-16 pt-8 md:py-28 text-primText">
         <div className="grid md:grid-cols-2 grid-cols-1 max-w-6xl mx-auto w-11/12 place-items-center gap-10">
           <div className="w-full">
             <h2

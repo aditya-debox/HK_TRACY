@@ -49,7 +49,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed w-full z-50 top-0  left-0  shadow-xl bg-beige md:py-4`}
+      className={`fixed w-full z-50 top-0  left-0  shadow-xl bg-primText md:py-4`}
     >
       {/* ${scrolled ? "bg-ternary backdrop-blur-sm" : "bg-transparent"} */}
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 " aria-label="Top">

@@ -88,7 +88,7 @@ export default function Services1() {
 
   const [swiper, setSwiper] = useState<any>();
   return (
-    <div className="bg-primary">
+    <div className="bg-primary text-primText">
       <div className="max-w-6xl mx-auto w-10/12 py-16">
         <div className="pb-6">
           <h2

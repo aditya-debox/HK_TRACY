@@ -50,7 +50,7 @@ export default function Reviews() {
       </div>
       <div className="grid md:grid-cols-2 grid-cols-1 max-w-6xl mx-auto place-items-center py-12 gap-10">
         <div
-          className={`max-w-xs  lg:max-w-lg border bg-secondary  lg:rounded-full rounded-md p-6 lg:min-h-[500px] min-h-[350px] grid place-items-center`}
+          className={`max-w-xs  lg:max-w-lg border bg-primary   lg:rounded-full rounded-md p-6 lg:min-h-[500px] min-h-[350px] grid place-items-center`}
         >
           <Swiper
             wrapperClass=""
@@ -66,7 +66,7 @@ export default function Reviews() {
           >
             {reviews.map((review, i) => (
               <SwiperSlide key={i}>
-                <div className="text-white">
+                <div className="text-primText">
                   <h2 className="text-lg italic">{review.review}</h2>
                   <h3 className={`pt-2 text-2xl ${amar.className}`}>
                     {review.customerName}
