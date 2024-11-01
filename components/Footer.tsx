@@ -1,8 +1,5 @@
 import { amar } from "@/pages/_app";
-import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import logo from "../public/assets/Logo.svg";
 import Icon from "./svg/pat";
 
 const Footer = () => {
@@ -23,8 +20,8 @@ const Footer = () => {
             href={"https://maps.app.goo.gl/u1sbdm2EP2YKMhMd6"}
           >
             <h2 className="hover:underline">
-              {" "}  
-2501 N Tracy Blvd, Tracy, CA 95376
+              {" "}
+              2501 N Tracy Blvd, Tracy, CA 95376
             </h2>
           </Link>
         </div>
@@ -58,8 +55,8 @@ const Footer = () => {
                   <path d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376" />
                 </svg>
               </div>
-              <Link  href="tel:+1 (209) 699-4004" className="hover:underline">
-              +1 (209) 699-4004
+              <Link href="tel:+1 (209) 699-4004" className="hover:underline">
+                +1 (209) 699-4004
               </Link>
             </div>
             <div className="text-sm flex md:justify-start justify-center items-center gap-2 py-2">
@@ -107,7 +104,9 @@ const Footer = () => {
             </div> */}
             <div>
               <Link
-                href={"https://www.instagram.com/himalayan_kitchen_tracy/profilecard/?igsh=MWQ1ZGUxMzBkMA=="}
+                href={
+                  "https://www.instagram.com/himalayan_kitchen_tracy/profilecard/?igsh=MWQ1ZGUxMzBkMA=="
+                }
                 target={"_blank"}
               >
                 <svg
@@ -129,9 +128,9 @@ const Footer = () => {
         <h2 className="text-base md:text-lg pb-2">
           All rights reserved by Himalayan Kitchen
         </h2>
-        <Link href="https://debox.co.in/" target="_blank" className="text-base">
-          Designed by{" "}
-          <span className="hover:underline text-primText hover:text-black text-sm">
+        <Link href="https://debox.co.in/" target="_blank" className="text-sm">
+          Developed & Designed by{" "}
+          <span className="hover:underline text-primText hover:text-black">
             {" "}
             Debox Consulting
           </span>

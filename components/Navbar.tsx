@@ -1,9 +1,8 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import Image from "next/image";
-import { useRouter } from "next/router";
-import Router from "next/router";
 import Link from "next/link";
+import Router, { useRouter } from "next/router";
 
 import logo from "../public/assets/HimalayanKitchen_Logo.svg";
 
@@ -98,11 +97,11 @@ export default function Navbar() {
               <a
                 // href="https://himalayan-kitchen.getbento.com/online-ordering/"
                 // target={"_blank"}
-            
+
                 rel="noreferrer"
               >
                 <div className="inline py-2 font-bold items-center justify-center text-sm md:text-base text-black relative">
-                  <span className="cursor-pointer text-lg border p-2 border-black rounded">
+                  <span className="cursor-pointer text-lg border p-2 border-black rounded hover:bg-primary hover:text-primText">
                     Online Order
                   </span>
                 </div>
@@ -159,7 +158,7 @@ export default function Navbar() {
               target={"_blank"}
               rel="noreferrer"
             >
-              <button className="text-lg bg-white hover:bg-ternary  px-4 py-1.5 text-black rounded-md border border-black hover:text-white">
+              <button className="text-lg bg-white hover:bg-primary  px-4 py-1.5 text-black rounded-md border border-black hover:text-primText">
                 Order
               </button>
             </Link>
